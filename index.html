@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Profile</title>
+</head>
+
+<body>
+    <script src="app.js"></script>
+
+    <div class="wrapper">
+        <header class="header">
+            <button class="account" onclick="toggle()">
+                <span>
+                    <img src="picture/IMG_20240525_092301_850.jpg" alt="User">
+                </span>
+                <span>
+                    <p>Rahmani</p>
+                    <p>rahmani@gmail.com</p>
+                </span>
+            </button>
+            <div class="logo">
+                <img src="picture/figma.png" alt="Logo">
+                <p>MyPage</p>
+            </div>
+            <div class="search">
+                <i class="uil uil-search"></i>
+                <input type="search" id="search" placeholder="Search">
+            </div>
+        </header>
+
+        <main class="main" id="mainn">
+            <!-- --------- -->
+            <!-- aside -->
+            <aside class="aside" id="aside-toggle">
+                <div class="logo-aside">
+                    <img src="picture/figma.png" alt="">
+                    <p>MyPage</p>
+                </div>
+                <ul>
+                    <li class="list-heght">
+                        <button onclick="btntoggle()"><i class="uil uil-estate"></i>Messager</button>
+                        <div id="list">
+                            <article class="article-right">
+                                <div class="up">
+                                    <h3>The Messager</h3>
+                                    <div class="line"></div>
+                                    <a href="" class="about">
+                                        <i class="uil uil-telegram"></i>
+                                        <p>@Aliii9980</p>
+                                    </a>
+                                    <a href="" class="about">
+                                        <i class="uil uil-whatsapp"></i>
+                                        <p>+989392862380</p>
+                                    </a>
+                                    <a href="" class="about">
+                                        <i class="uil uil-instagram-alt"></i>
+                                        <p>@Aliii.184</p>
+                                    </a>
+                                    <a href="" class="about">
+                                        <i class="uil uil-github"></i>
+                                        <p>HoseinRahmani403</p>
+                                    </a>
+                                </div>
+                                <div class="botton">
+                                    <div class="h3">
+                                        <i class="uil uil-message"></i>
+                                        <h3>Resume</h3>
+                                    </div>
+                                    <div class="line"></div>
+                                    <p>Shahreza University</p>
+                                </div>
+                            </article>
+                        </div>
+                    </li>
+                    <li class="list-heght">
+                        <button onclick="btntoggle2()"><i class="uil uil-estate"></i>About</button>
+                        <div id="list2">
+                            <article class="article-left">
+                                <h3>About</h3>
+                                <div class="line"></div>
+                                <div class="about">
+                                    <i class="uil uil-user-circle"></i>
+                                    <p>Ali Rahmani</p>
+                                </div>
+                                <div class="line"></div>
+                                <div class="about">
+                                    <i class="uil uil-map-marker"></i>
+                                    <p>Iran, Isfahan, Falvarjan</p>
+                                </div>
+                                <div class="line"></div>
+                                <div class="about">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    <p>17/3/2006</p>
+                                </div>
+                                <div class="line"></div>
+                                <div class="about">
+                                    <i class="uil uil-at"></i>
+                                    <p>rahmani@gmail.com</p>
+                                </div>
+                                <div class="line"></div>
+                                <div class="about">
+                                    <i class="uil uil-phone"></i>
+                                    <p>+989137909090</p>
+                                </div>
+                            </article>
+                        </div>
+                    </li>
+                </ul>
+            </aside>
+            <!-- --------- -->
+            <!-- Section -->
+            <section class="section">
+                <!-- --------- -->
+                <!-- Up -->
+                <section class="section-one">
+                    <article class="article-up">
+                        <img src="picture/wp7241590.jpg" alt="">
+                    </article>
+                    <article class="article-center">
+                        <div>
+                            <img src="picture/IMG_20240525_092301_850.jpg" alt="">
+                        </div>
+                    </article>
+                    <article class="article-botton">
+                        <div>
+                            <p>Ali Rahmani</p>
+                            <span>
+                                <p>Web Developer &nbsp;</p>
+                                <img src="picture/html.png" alt="">
+                                <img src="picture/text.png" alt="">
+                                <img src="picture/js.png" alt="">
+                                <!-- <img src="picture/typescript.png" alt=""> -->
+                                <img src="picture/science.png" alt="">
+                            </span>
+                        </div>
+                        <i class="uil uil-envelope-alt" id="uil"></i>
+                        <div class="click-mail" id="click-maill">
+                            <button>
+                                <p>Email</p>
+                                <i class="uil uil-at"></i>
+                            </button>
+                            <button>
+                                <p>Message</p>
+                                <i class="uil uil-comment-alt-message"></i>
+                            </button>
+                        </div>
+                    </article>
+                </section>
+                <!-- --------- -->
+                <!-- Botton -->
+                <section class="section-two">
+                    <!-- --------- -->
+                    <!-- Left -->
+                    <article class="article-left">
+                        <h3>About</h3>
+                        <div class="line"></div>
+                        <div class="about">
+                            <i class="uil uil-user-circle"></i>
+                            <p>Ali Rahmani</p>
+                        </div>
+                        <div class="line"></div>
+                        <div class="about">
+                            <i class="uil uil-map-marker"></i>
+                            <p>Iran, Isfahan, Falvarjan</p>
+                        </div>
+                        <div class="line"></div>
+                        <div class="about">
+                            <i class="uil uil-calendar-alt"></i>
+                            <p>17/3/2006</p>
+                        </div>
+                        <div class="line"></div>
+                        <div class="about">
+                            <i class="uil uil-at"></i>
+                            <p>rahmani@gmail.com</p>
+                        </div>
+                        <div class="line"></div>
+                        <div class="about">
+                            <i class="uil uil-phone"></i>
+                            <p>+989137909090</p>
+                        </div>
+                    </article>
+                    <!-- --------- -->
+                    <!-- center -->
+                    <article class="article-center">
+                        <div class="center-up">
+                            <h3>Projects</h3>
+                            <div>
+                                <button>All</button>
+                                <button>Header</button>
+                                <button>Footer</button>
+                                <button>Login</button>
+                                <button>Website</button>
+                            </div>
+                            <div class="line"></div>
+                        </div>
+                        <div class="center-botton">
+                            <div class="account">
+                                <span>
+                                    <img src="picture/x.png" alt="">
+                                </span>
+                                <span>
+                                    <p>Ali Rahmani</p>
+                                    <p>WebDeveloper</p>
+                                </span>
+                            </div>
+                            <i class="uil uil-ellipsis-h"></i>
+                            <span>
+                                <img src="picture/Screenshot_۲۰۲۵۰۱۰۲_۰۶۵۶۲۶_Instagram.jpg" alt="">
+                            </span>
+                            <p>WebCar</p>
+                            <P>17/08/2024</P>
+                            <i class="uil uil-comment-alt-dots"></i>
+                        </div>
+                        <div class="line2"></div>
+                        <div class="center-botton">
+                            <div class="account">
+                                <span>
+                                    <img src="picture/x.png" alt="">
+                                </span>
+                                <span>
+                                    <p>Ali Rahmani</p>
+                                    <p>WebDeveloper</p>
+                                </span>
+                            </div>
+                            <i class="uil uil-ellipsis-h"></i>
+                            <span>
+                                <img src="picture/Screenshot_۲۰۲۵۰۱۰۲_۰۶۵۶۳۶_Instagram.jpg" alt="">
+                            </span>
+                            <p>WebCar</p>
+                            <P>23/10/2024</P>
+                            <i class="uil uil-comment-alt-dots"></i>
+                        </div>
+                        <div class="line2"></div>
+                        <div class="center-botton">
+                            <div class="account">
+                                <span>
+                                    <img src="picture/x.png" alt="">
+                                </span>
+                                <span>
+                                    <p>Ali Rahmani</p>
+                                    <p>WebDeveloper</p>
+                                </span>
+                            </div>
+                            <i class="uil uil-ellipsis-h"></i>
+                            <span>
+                                <img src="picture/Screenshot_۲۰۲۵۰۱۰۲_۰۶۵۶۴۹_Instagram.jpg" alt="">
+                            </span>
+                            <p>WebCar</p>
+                            <P>07/1/2025</P>
+                            <i class="uil uil-comment-alt-dots"></i>
+                        </div>
+                    </article>
+                    <!-- --------- -->
+                    <!-- Right -->
+                    <article class="article-right">
+                        <div class="up">
+                            <h3>The Messager</h3>
+                            <div class="line"></div>
+                            <a href="" class="about">
+                                <i class="uil uil-telegram"></i>
+                                <p>@Aliii9980</p>
+                            </a>
+                            <a href="" class="about">
+                                <i class="uil uil-whatsapp"></i>
+                                <p>+989392862380</p>
+                            </a>
+                            <a href="" class="about">
+                                <i class="uil uil-instagram-alt"></i>
+                                <p>@Aliii.184</p>
+                            </a>
+                            <a href="" class="about">
+                                <i class="uil uil-github"></i>
+                                <p>HoseinRahmani403</p>
+                            </a>
+                        </div>
+                        <div class="botton">
+                            <div class="h3">
+                                <i class="uil uil-message"></i>
+                                <h3>Resume</h3>
+                            </div>
+                            <div class="line"></div>
+                            <p>Shahreza University</p>
+                        </div>
+                    </article>
+                    <!-- --------- -->
+                </section>
+                <!-- --------- -->
+                <!-- Section -->
+            </section>
+        </main>
+
+    </div>
+</body>
+
+</html>
