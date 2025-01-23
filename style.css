@@ -28,9 +28,10 @@ span {
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 .wrapper {
-  height: 100%;
+  min-height: 100vh;
   background-color: #e5e5e5;
 }
 .header {
@@ -82,7 +83,6 @@ span {
       p:nth-child(2) {
         font-size: 1vw;
         color: #ffb703;
-        /* opacity: 0.6; */
       }
     }
   }
@@ -613,7 +613,7 @@ span {
 }
 
 /* Responsive */
-
+/* Tablet */
 @media screen and (min-width: 481px) and (max-width: 832px) {
   .header {
     .account {
@@ -893,6 +893,9 @@ span {
     }
   }
 }
+
+/* Responsive */
+/* Mobile */
 @media screen and (max-width: 480px) {
   .header {
     .account {
